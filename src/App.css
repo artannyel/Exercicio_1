@@ -7,6 +7,46 @@
   pointer-events: none;
 }
 
+.Number {
+  background-color: #acd5e7;
+  border: none; 
+  border-radius: 7px;
+  cursor: text;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  width: 200px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.Erro{
+  color: rgb(255, 17, 17);
+  font-size: 50px;
+}
+
+.Sucess{
+  font-size: 50px;
+}
+
+.Titulo{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.Button {
+  border: none;
+  border-radius: 10px 25px;
+  background-color: rgb(21, 64, 255);
+  height: 60px;
+  width: 140px;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  margin: 5px;
+  margin-bottom: 20px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -14,7 +54,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #002061;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
